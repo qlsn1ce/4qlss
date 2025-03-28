@@ -1,4 +1,3 @@
-#1
 #include <iostream>
 #include <string>
 
@@ -23,13 +22,16 @@ int main() {
     if (letterCount > digitCount) {
         std::cout << "В строке больше букв, чем цифр." << std::endl;
     } else {
-        std::cout << "В строке не больше букв, чем цифр." << std::endl;
+        std::cout << "В строке меньше букв, чем цифр." << std::endl;
     }
 
     return 0;
 }
 
-#2
+
+
+
+
 #include <iostream>
 #include <string>
 #include <set>
