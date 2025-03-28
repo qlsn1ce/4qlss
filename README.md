@@ -44,7 +44,7 @@ int main() {
     std::set<char> uniqueLetters;
 
     for (char ch : input) {
-        if (std::isalpha(ch)) uniqueLetters.insert(tolower(ch)); // Приводим к нижнему регистру
+        if (std::isalpha(ch)) uniqueLetters.insert(tolower(ch));
     }
 
     if (uniqueLetters.empty()) {
